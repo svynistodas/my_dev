@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8433B2FB17B63FC200E5F161 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433B2FA17B63FC200E5F161 /* UIKit.framework */; };
+		8433B2FD17B63FC200E5F161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433B2FC17B63FC200E5F161 /* Foundation.framework */; };
+		8433B2FF17B63FC200E5F161 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433B2FE17B63FC200E5F161 /* CoreGraphics.framework */; };
+		8433B30517B63FC200E5F161 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8433B30317B63FC200E5F161 /* InfoPlist.strings */; };
+		8433B30717B63FC200E5F161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433B30617B63FC200E5F161 /* main.m */; };
+		8433B30B17B63FC200E5F161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433B30A17B63FC200E5F161 /* AppDelegate.m */; };
+		8433B30D17B63FC200E5F161 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433B30C17B63FC200E5F161 /* Default.png */; };
+		8433B30F17B63FC200E5F161 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433B30E17B63FC200E5F161 /* Default@2x.png */; };
+		8433B31117B63FC200E5F161 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433B31017B63FC200E5F161 /* Default-568h@2x.png */; };
+		8433B31417B63FC200E5F161 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8433B31217B63FC200E5F161 /* MainStoryboard.storyboard */; };
+		8433B32217B6431500E5F161 /* SpeedCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433B32117B6431500E5F161 /* SpeedCalcViewController.m */; };
+		8433B32417B6453500E5F161 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433B32317B6453500E5F161 /* ViewController.xib */; };
+		8433B32717B6A5A000E5F161 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433B32617B6A5A000E5F161 /* SettingsViewController.m */; };
+		84E59D4717B82B7600B0F087 /* MainStoryboard-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E59D4517B82B7600B0F087 /* MainStoryboard-ipad.storyboard */; };
+		84F13E5517BE2F75006F5006 /* pattern5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F13E5417BE2F75006F5006 /* pattern5.jpg */; };
+		84F13E8717BE69A0006F5006 /* dice-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F13E8517BE69A0006F5006 /* dice-ipad.png */; };
+		84F13E8817BE69A0006F5006 /* dice-mob.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F13E8617BE69A0006F5006 /* dice-mob.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8433B2F717B63FC200E5F161 /* SpeedCal2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedCal2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8433B2FA17B63FC200E5F161 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8433B2FC17B63FC200E5F161 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8433B2FE17B63FC200E5F161 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8433B30217B63FC200E5F161 /* SpeedCal2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedCal2-Info.plist"; sourceTree = "<group>"; };
+		8433B30417B63FC200E5F161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8433B30617B63FC200E5F161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8433B30817B63FC200E5F161 /* SpeedCal2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedCal2-Prefix.pch"; sourceTree = "<group>"; };
+		8433B30917B63FC200E5F161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8433B30A17B63FC200E5F161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8433B30C17B63FC200E5F161 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8433B30E17B63FC200E5F161 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8433B31017B63FC200E5F161 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8433B31317B63FC200E5F161 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8433B32017B6431500E5F161 /* SpeedCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedCalcViewController.h; sourceTree = "<group>"; };
+		8433B32117B6431500E5F161 /* SpeedCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedCalcViewController.m; sourceTree = "<group>"; };
+		8433B32317B6453500E5F161 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8433B32517B6A5A000E5F161 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8433B32617B6A5A000E5F161 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		84E59D4617B82B7600B0F087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/MainStoryboard-ipad.storyboard"; sourceTree = "<group>"; };
+		84F13E5417BE2F75006F5006 /* pattern5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern5.jpg; sourceTree = "<group>"; };
+		84F13E8517BE69A0006F5006 /* dice-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-ipad.png"; sourceTree = "<group>"; };
+		84F13E8617BE69A0006F5006 /* dice-mob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-mob.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8433B2F417B63FC200E5F161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8433B2FB17B63FC200E5F161 /* UIKit.framework in Frameworks */,
+				8433B2FD17B63FC200E5F161 /* Foundation.framework in Frameworks */,
+				8433B2FF17B63FC200E5F161 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8433B2EE17B63FC200E5F161 = {
+			isa = PBXGroup;
+			children = (
+				8433B30017B63FC200E5F161 /* SpeedCal2 */,
+				8433B2F917B63FC200E5F161 /* Frameworks */,
+				8433B2F817B63FC200E5F161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8433B2F817B63FC200E5F161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8433B2F717B63FC200E5F161 /* SpeedCal2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8433B2F917B63FC200E5F161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8433B2FA17B63FC200E5F161 /* UIKit.framework */,
+				8433B2FC17B63FC200E5F161 /* Foundation.framework */,
+				8433B2FE17B63FC200E5F161 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8433B30017B63FC200E5F161 /* SpeedCal2 */ = {
+			isa = PBXGroup;
+			children = (
+				84F13E8517BE69A0006F5006 /* dice-ipad.png */,
+				84F13E8617BE69A0006F5006 /* dice-mob.png */,
+				84F13E5417BE2F75006F5006 /* pattern5.jpg */,
+				8433B32517B6A5A000E5F161 /* SettingsViewController.h */,
+				8433B32617B6A5A000E5F161 /* SettingsViewController.m */,
+				84E59D4517B82B7600B0F087 /* MainStoryboard-ipad.storyboard */,
+				8433B32317B6453500E5F161 /* ViewController.xib */,
+				8433B30917B63FC200E5F161 /* AppDelegate.h */,
+				8433B30A17B63FC200E5F161 /* AppDelegate.m */,
+				8433B31217B63FC200E5F161 /* MainStoryboard.storyboard */,
+				8433B30117B63FC200E5F161 /* Supporting Files */,
+				8433B32017B6431500E5F161 /* SpeedCalcViewController.h */,
+				8433B32117B6431500E5F161 /* SpeedCalcViewController.m */,
+			);
+			path = SpeedCal2;
+			sourceTree = "<group>";
+		};
+		8433B30117B63FC200E5F161 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8433B30217B63FC200E5F161 /* SpeedCal2-Info.plist */,
+				8433B30317B63FC200E5F161 /* InfoPlist.strings */,
+				8433B30617B63FC200E5F161 /* main.m */,
+				8433B30817B63FC200E5F161 /* SpeedCal2-Prefix.pch */,
+				8433B30C17B63FC200E5F161 /* Default.png */,
+				8433B30E17B63FC200E5F161 /* Default@2x.png */,
+				8433B31017B63FC200E5F161 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8433B2F617B63FC200E5F161 /* SpeedCal2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8433B31A17B63FC200E5F161 /* Build configuration list for PBXNativeTarget "SpeedCal2" */;
+			buildPhases = (
+				8433B2F317B63FC200E5F161 /* Sources */,
+				8433B2F417B63FC200E5F161 /* Frameworks */,
+				8433B2F517B63FC200E5F161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedCal2;
+			productName = SpeedCal2;
+			productReference = 8433B2F717B63FC200E5F161 /* SpeedCal2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8433B2EF17B63FC200E5F161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = moze;
+			};
+			buildConfigurationList = 8433B2F217B63FC200E5F161 /* Build configuration list for PBXProject "SpeedCal2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8433B2EE17B63FC200E5F161;
+			productRefGroup = 8433B2F817B63FC200E5F161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8433B2F617B63FC200E5F161 /* SpeedCal2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8433B2F517B63FC200E5F161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8433B30517B63FC200E5F161 /* InfoPlist.strings in Resources */,
+				8433B30D17B63FC200E5F161 /* Default.png in Resources */,
+				8433B30F17B63FC200E5F161 /* Default@2x.png in Resources */,
+				8433B31117B63FC200E5F161 /* Default-568h@2x.png in Resources */,
+				8433B31417B63FC200E5F161 /* MainStoryboard.storyboard in Resources */,
+				8433B32417B6453500E5F161 /* ViewController.xib in Resources */,
+				84E59D4717B82B7600B0F087 /* MainStoryboard-ipad.storyboard in Resources */,
+				84F13E5517BE2F75006F5006 /* pattern5.jpg in Resources */,
+				84F13E8717BE69A0006F5006 /* dice-ipad.png in Resources */,
+				84F13E8817BE69A0006F5006 /* dice-mob.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8433B2F317B63FC200E5F161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8433B30717B63FC200E5F161 /* main.m in Sources */,
+				8433B30B17B63FC200E5F161 /* AppDelegate.m in Sources */,
+				8433B32217B6431500E5F161 /* SpeedCalcViewController.m in Sources */,
+				8433B32717B6A5A000E5F161 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8433B30317B63FC200E5F161 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8433B30417B63FC200E5F161 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8433B31217B63FC200E5F161 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8433B31317B63FC200E5F161 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84E59D4517B82B7600B0F087 /* MainStoryboard-ipad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E59D4617B82B7600B0F087 /* en */,
+			);
+			name = "MainStoryboard-ipad.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8433B31817B63FC200E5F161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8433B31917B63FC200E5F161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8433B31B17B63FC200E5F161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedCal2/SpeedCal2-Prefix.pch";
+				INFOPLIST_FILE = "SpeedCal2/SpeedCal2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8433B31C17B63FC200E5F161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedCal2/SpeedCal2-Prefix.pch";
+				INFOPLIST_FILE = "SpeedCal2/SpeedCal2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8433B2F217B63FC200E5F161 /* Build configuration list for PBXProject "SpeedCal2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8433B31817B63FC200E5F161 /* Debug */,
+				8433B31917B63FC200E5F161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8433B31A17B63FC200E5F161 /* Build configuration list for PBXNativeTarget "SpeedCal2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8433B31B17B63FC200E5F161 /* Debug */,
+				8433B31C17B63FC200E5F161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8433B2EF17B63FC200E5F161 /* Project object */;
+}

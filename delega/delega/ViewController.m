@@ -1,0 +1,36 @@
+//
+//  ViewController.m
+//  delega
+//
+//  Created by Arnoldas on 6/11/13.
+//  Copyright (c) 2013 moze. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    UIAlertView *myalert = [[UIAlertView alloc]
+                            initWithTitle:@"alert title"
+                            message:@"problem"
+                            delegate:nil
+                            cancelButtonTitle:@"OK"
+                            otherButtonTitles:@"Cancel", nil ];
+    [myalert show];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
