@@ -34,6 +34,16 @@
     
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"DisplayImage"]) {
+        DisplayImageViewController *divc = [segue destinationViewController];
+        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
+        NSIndexPath *index = [indexPaths objectAtIndex:0];
+        NSString *i = [recipeImages objectAtIndex:index.row];
+        [divc setImageFileName:i];
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -56,7 +66,6 @@
     
     return cell;
 }
-
 
 
 @end

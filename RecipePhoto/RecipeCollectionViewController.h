@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DisplayImageViewController.h"
 
 @interface RecipeCollectionViewController : UICollectionViewController
 

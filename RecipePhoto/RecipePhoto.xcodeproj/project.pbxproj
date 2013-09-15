@@ -36,6 +36,7 @@
 		84BBADDA17E4F97F0092AE8C /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBADC917E4F97F0092AE8C /* thai_shrimp_cake.jpg */; };
 		84BBADDB17E4F97F0092AE8C /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBADCA17E4F97F0092AE8C /* vegetable_curry.jpg */; };
 		84BBADDC17E4F97F0092AE8C /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBADCB17E4F97F0092AE8C /* white_chocolate_donut.jpg */; };
+		84E1623A17E59625009C09CF /* DisplayImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1623917E59625009C09CF /* DisplayImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		84BBADC917E4F97F0092AE8C /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
 		84BBADCA17E4F97F0092AE8C /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
 		84BBADCB17E4F97F0092AE8C /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		84E1623817E59625009C09CF /* DisplayImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayImageViewController.h; sourceTree = "<group>"; };
+		84E1623917E59625009C09CF /* DisplayImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		84BBAD8217E4F6C00092AE8C = {
 			isa = PBXGroup;
 			children = (
+				84E1623817E59625009C09CF /* DisplayImageViewController.h */,
+				84E1623917E59625009C09CF /* DisplayImageViewController.m */,
 				84BBADBA17E4F97F0092AE8C /* RecipePhotoImagePack */,
 				84BBADB717E4F88D0092AE8C /* RecipeCollectionViewController.h */,
 				84BBADB817E4F88D0092AE8C /* RecipeCollectionViewController.m */,
@@ -256,6 +261,7 @@
 				84BBAD9B17E4F6C00092AE8C /* main.m in Sources */,
 				84BBAD9F17E4F6C00092AE8C /* AppDelegate.m in Sources */,
 				84BBADB917E4F88D0092AE8C /* RecipeCollectionViewController.m in Sources */,
+				84E1623A17E59625009C09CF /* DisplayImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +394,7 @@
 				84BBADB317E4F6C00092AE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
