@@ -63,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84D4956617FF63A4001E64B1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84BBAD8017E4EC2D0092AE8C /* zuvis.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		84EE07E217CBE05800DB8696 = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +104,7 @@
 		84EE07F417CBE05800DB8696 /* AnonImage */ = {
 			isa = PBXGroup;
 			children = (
-				84BBAD8017E4EC2D0092AE8C /* zuvis.jpg */,
+				84D4956617FF63A4001E64B1 /* images */,
 				84EE07FD17CBE05800DB8696 /* AppDelegate.h */,
 				84EE07FE17CBE05800DB8696 /* AppDelegate.m */,
 				84EE080617CBE05800DB8696 /* MainStoryboard_iPhone.storyboard */,

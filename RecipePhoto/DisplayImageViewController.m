@@ -30,8 +30,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    UIImage *image = [UIImage imageNamed:ImageFileName];
+    //UIImage *image = [UIImage imageNamed:ImageFileName];
+    
+    NSData *imageData = [[NSData alloc] initWithContentsOfURL:self.imageURL];
+    UIImage *image = [[UIImage alloc] initWithData:imageData];
+   
     [self.currentImage setImage:image];
+    
 }
 
 - (void)didReceiveMemoryWarning

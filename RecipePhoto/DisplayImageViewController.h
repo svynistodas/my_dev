@@ -11,5 +11,6 @@
 @interface DisplayImageViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *currentImage;
 @property (strong, nonatomic) NSString *ImageFileName;
+@property (nonatomic, strong) NSURL *imageURL;
 
 @end
