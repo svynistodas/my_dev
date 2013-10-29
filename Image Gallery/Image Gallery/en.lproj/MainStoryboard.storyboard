@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gAc-FU-7Ey">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eVx-vk-bCf">
+            <objects>
+                <viewController id="gAc-FU-7Ey" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MQa-Rx-c16">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="IBq-cd-Wbp">
+                                <color key="backgroundColor" red="0.40672046150000002" green="0.58220873709999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="s8I-w1-bLK">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="gkA-aE-ALH" customClass="PhotoCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDO-9d-tU7"/>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="ZDO-9d-tU7" firstAttribute="trailing" secondItem="gkA-aE-ALH" secondAttribute="trailing" type="default" id="6sW-w2-rb4"/>
+                                            <constraint firstItem="ZDO-9d-tU7" firstAttribute="top" secondItem="gkA-aE-ALH" secondAttribute="top" type="default" id="ScN-oq-K7v"/>
+                                            <constraint firstItem="ZDO-9d-tU7" firstAttribute="leading" secondItem="gkA-aE-ALH" secondAttribute="leading" type="default" id="UrL-ZS-A68"/>
+                                            <constraint firstItem="ZDO-9d-tU7" firstAttribute="bottom" secondItem="gkA-aE-ALH" secondAttribute="bottom" type="default" id="r4h-G3-aTd"/>
+                                        </constraints>
+                                        <size key="customSize" width="104" height="104"/>
+                                        <connections>
+                                            <outlet property="photoImageView" destination="ZDO-9d-tU7" id="Skg-L6-qR4"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="gAc-FU-7Ey" id="z15-Bt-5fY"/>
+                                    <outlet property="delegate" destination="gAc-FU-7Ey" id="svV-oU-qr7"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIt-E2-bb5">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCE-rh-O4j">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="105" id="Bn3-Fo-Pg2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Album">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="albumsButtonTapped:" destination="gAc-FU-7Ey" eventType="touchUpInside" id="69I-fd-xHG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rp-G6-BjD">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="116" id="1o1-Ni-73d"/>
+                                            <constraint firstAttribute="height" constant="52" id="QW6-MU-Jzh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Take photo">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="takePhotoButtonTapped:" destination="gAc-FU-7Ey" eventType="touchUpInside" id="06O-b5-QiP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.26000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4rp-G6-BjD" firstAttribute="top" secondItem="mIt-E2-bb5" secondAttribute="top" constant="12" id="1Yk-QC-PQP"/>
+                                    <constraint firstItem="uCE-rh-O4j" firstAttribute="bottom" secondItem="4rp-G6-BjD" secondAttribute="bottom" type="default" id="308-sZ-mOz"/>
+                                    <constraint firstItem="4rp-G6-BjD" firstAttribute="leading" secondItem="mIt-E2-bb5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="79u-ok-Vnw"/>
+                                    <constraint firstItem="uCE-rh-O4j" firstAttribute="baseline" secondItem="4rp-G6-BjD" secondAttribute="baseline" type="default" id="J0g-0N-lX8"/>
+                                    <constraint firstAttribute="trailing" secondItem="uCE-rh-O4j" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Q6L-um-y3l"/>
+                                    <constraint firstItem="uCE-rh-O4j" firstAttribute="top" secondItem="4rp-G6-BjD" secondAttribute="top" type="default" id="Spu-WG-Kju"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mIt-E2-bb5" firstAttribute="trailing" secondItem="MQa-Rx-c16" secondAttribute="trailing" type="default" id="2qP-vZ-CtB"/>
+                            <constraint firstItem="mIt-E2-bb5" firstAttribute="leading" secondItem="MQa-Rx-c16" secondAttribute="leading" type="default" id="8sA-3X-R2a"/>
+                            <constraint firstItem="IBq-cd-Wbp" firstAttribute="leading" secondItem="MQa-Rx-c16" secondAttribute="leading" type="default" id="L7B-Bq-3Nj"/>
+                            <constraint firstItem="mIt-E2-bb5" firstAttribute="top" secondItem="MQa-Rx-c16" secondAttribute="top" constant="300" id="NAK-kK-wWK"/>
+                            <constraint firstItem="IBq-cd-Wbp" firstAttribute="bottom" secondItem="MQa-Rx-c16" secondAttribute="bottom" type="default" id="OuK-P9-Hgo"/>
+                            <constraint firstItem="IBq-cd-Wbp" firstAttribute="top" secondItem="MQa-Rx-c16" secondAttribute="top" type="default" id="iDA-3I-tty"/>
+                            <constraint firstAttribute="bottom" secondItem="mIt-E2-bb5" secondAttribute="bottom" constant="85" id="l8w-An-vYx"/>
+                            <constraint firstItem="IBq-cd-Wbp" firstAttribute="trailing" secondItem="MQa-Rx-c16" secondAttribute="trailing" type="default" id="yCh-Wi-o9t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="IBq-cd-Wbp" id="kQ6-0w-NaD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtF-Rg-q3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="26"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
